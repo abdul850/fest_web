@@ -1,0 +1,367 @@
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+  
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #474747;
+  background-color: #ffff80 !important;
+}
+
+
+h1,h2,h3,h4,h5,h6, .title {
+    font-family: "Economica", sans-serif;
+    
+    font-weight: bold;
+    margin: 1rem 1rem 0;
+}
+.logo{
+    max-width:45%;
+}
+
+
+
+.work >h5>span{
+    background-color:yellow;
+    
+}
+
+
+.carousel-inner>.item>img{
+    height:550px !important;
+    position: relative;
+    width:100%;
+   
+}
+
+
+
+h2 {
+    font-size: 1.6rem;
+ 
+}
+
+.sub-heading{
+       text-align: center;
+    font-weight: bold;
+ position: fixed;
+ float:none;
+width:100%;
+    background-color: #ffff80;
+   
+  border: 1px solid #adadad;
+
+
+
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+strong{
+    font-size: 4em;
+      font-family: 'Baloo Chettan', cursive;
+    padding-left: 550px;
+      position: relative;
+        text-align: center;
+}
+
+.work >h5>span{
+    background-color:yellow;
+    
+}
+
+
+.work:last-child{
+    right:2px !important;
+}
+
+
+.work >figure>a>img{
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    border: 1px 1px solid black;
+    padding: 2px;
+    transition: .4s;
+}
+
+.input_image:hover{
+     box-shadow: 0 0 2.4px 2.4px black;
+}
+
+
+ .work img:hover {
+  box-shadow: 0 0 2.4px 2.4px black;
+
+}
+
+
+.work>figure{
+    position: relative;
+    padding-right: 20px;
+    width:100%;
+}
+
+.input_image{
+    position: relative;
+    width: 270px;
+    height: 17rem;
+    transition: 0.3s;
+    margin-right:10px;
+    margin-left:10px;
+    padding:0;
+}
+
+.input_image>img{
+    position:relative;
+    width:100%;
+    height:166px;
+    bottom:2px !important;
+    top:0;
+    
+}
+
+.input_image>img:hover{
+    box-shadow:none;
+}
+
+
+
+.work > a {
+   
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+       color: inherit;
+        text-shadow: 2px 2px 0 0;
+        font-weight: bold;
+        position:relative;
+        width:100%;
+}
+
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    
+
+
+}
+
+.page-header a:hover{
+    color: black;
+    background-color: #ffff80;
+
+}
+
+
+    .page-header nav {
+        float: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        height: 4em;
+        background-color:rgba(206, 198, 198,0.9);
+        padding-left: 10px;
+        margin-left: 50px;
+
+    }
+
+    .page-header nav li {
+        color: black;
+        float: left;
+        background-color:;
+        margin-right: 2rem;
+        padding-top: 0rem;
+        position: relative;
+        margin-top: 1.5em;
+
+
+
+    }
+
+    .page-header nav li:last-child {
+        margin-right: 1rem;
+        float: right;
+        text-align: right: 
+
+
+        
+    }
+
+    .page-header  em {
+        display: block;
+        color: #474747;
+        font-size: 2em;
+         
+
+    }
+   
+
+  .page-header nav > ul{
+    margin-top: 0;
+  }
+
+
+  .page-header a{
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px grey;
+    color: black;
+    transition: .5s;
+  }
+
+  .event-div h1{
+    position: relative;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .clearfix:before,
+.clearfix:after {
+    content: " ";
+   display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix{
+    position:relative;
+    left:30px;
+}
+
+.first{
+    
+}
+
+
+.first{
+   
+    width:260px ;
+    padding-right:10px;
+    
+    
+}
+
+.work:nth-child(3){
+    margin-right:0px;
+}
+
+
+/*=========================
+  Portfolio
+ ==========================*/
+
+
+p{
+    font-size: x-small;
+    color: black;
+}
+
+.portfolio {
+    position: static;
+  right:0;
+  left:10px;
+    background-image: radial-gradient(#1294d1 10%, #04ebef 60%, magenta  );
+}
+
+
+li{
+    list-style: none;
+}
+
+.portfolio .title-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+      margin-top: 1em;
+      left:20px;
+      width:100%;
+    
+}
+
+.portfolio h2 {
+    
+    color: black;
+    padding: 0.5em;
+}
+
+.work {
+    float:left;
+    width: 22%;
+    margin-right:2rem;
+    left: 20px;
+    }
+
+
+    .work figure {
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: .5em;
+       
+    }
+
+
+    .work:first-child{
+        left: 20px;
+        padding-right: 1rem ;   
+        position: relative;
+    }
+
+.work-last-child{
+    right: 2px;
+}
+
+    .work > div{
+        font-size: small;
+      
+
+      
+    }
+    
+
+
+
+
+
+    /*=========================
+  Footer
+ ==========================*/
+.page-footer{
+    text-align: center;
+    width:100%;
+    position:relative;
+    left:10px;
+}
+
+.footer-contents{
+    margin-top: 2rem;
+    background-color:#828176;
+    color:black;
+    padding: 5em;
+
+}
+
+
+
+.footer{
+    color: red;
+}
+
+.footer-contents a{
+    color: blue;
+    text-decoration: none;
+    transition-duration: .3s;
+
+}
+
+.footer-contents a:hover{
+    color: red;
+    text-decoration: none;
+
+}

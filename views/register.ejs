@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+       <div class="container" style="padding-right:20px; display:inline-block;">
+        <nav class="navbar navbar-transparent navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img class="logo" src="favicon.png"></a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a href="#">xtacy</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="/events" class="events">Events</a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+<!--<div style="width:9%; margin:30px auto;box-shadow: inset 1em 1.5em #ffff80;"><h1 style="text-align: right;">Register</h1></div>-->
+<div style="max-width:50%;margin:30px auto;padding-top:40px;">
+<div class="container1" style="background-color:#ffff80; padding-bottom:40px">
+    <div style="width:35%; margin:30px auto; margin-bottom:30px; padding-top:50px ; padding:bottom:40px;border:none">
+    <div class="row">
+    <h1 style="text-align: center;">Register</h1>
+    <br>
+<form method="POST" action="/registration">
+    <div class=form-group>
+    <input class="form-control" type="text" name="name" placeholder="name" required>
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="email" id="email23" name="email" placeholder="email" required>
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="password" name="password" placeholder="password" minlength="8">
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="text" name="institution" placeholder="institution" >
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="int" name="contact" minlength="10" maxlength="10" placeholder="contact" required>
+    </div>
+    <div class=form-group>
+    <input type="radio" name="user_type" value="P" required> Participant<br>
+    <input type="radio" name="user_type" value="V"> Volunteer<br>
+    <% if(count < 12){%>
+    <input type="radio" name="user_type" value="C" > Coordinator 
+    <% } %>
+    </div>
+    <h5>Existing user? <a href="/login">login here</a></h5>
+    <br>
+    <button type="submit" style="background-color:#535b63;" class="btn btn-primary btn-block btn-md">Submit</button>
+</form>
+</div>
+</div>
+</div>
+</body>

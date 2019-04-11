@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-family: roboto;
+}
+
+.form-inline{
+    width:50%;
+    margin:auto;
+}
+.container2{
+    margin-top: 30px;
+    background-color:#fe0;
+    text-align: center;
+    padding-top: 30px;
+    width:35%;
+}
+.navbar-transparent .navbar-nav > li > a:hover, .navbar-transparent .navbar-nav > li > a:focus {
+    background-color: #FFFF80;
+    color: black;
+    transition: 0.5s;
+}
+
+.navbar-transparent .navbar-nav>li>a {
+    color:white;
+    font-size-adjust: inherit;
+}
+.form-check{
+    text-align:left;
+}
+button{
+    position:relative;
+}
+
