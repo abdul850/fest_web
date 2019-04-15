@@ -505,6 +505,6 @@ app.post('/login_request', function(request, response) {
 	}
 });
 
-app.listen(PORT,function(){
+app.listen(PORT,(()=>{
     console.log("server listening");
-});
+}));
