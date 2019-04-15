@@ -1,5 +1,6 @@
 var express=require("express");
 var mysql=require("mysql");
+const PORT = process.env.PORT || 8877
 var session = require('express-session');
 var bodyParser=require("body-parser");
 var app=express();
@@ -504,6 +505,6 @@ app.post('/login_request', function(request, response) {
 	}
 });
 
-app.listen(process.env.PORT,process.env.IP,function(){
+app.listen(PORT,function(){
     console.log("server listening");
 });
