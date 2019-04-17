@@ -1,6 +1,6 @@
 var express=require("express");
 var mysql=require("mysql");
-const PORT = process.env.PORT || 8877
+const PORT = process.env.PORT || 3306
 var session = require('express-session');
 var bodyParser=require("body-parser");
 var app=express();
@@ -18,13 +18,11 @@ app.use(session({
 app.use(express.static("public"));
 
 
-mysql://b32fa719432e40:87de815a@us-cdbr-east-04.cleardb.com/heroku_28437b49d76cc53?reconnect=true
-
 var connection = mysql.createConnection({
-  host     : 'us-cdbr-east-04.cleardb.com',
-  user     : 'b32fa719432e40',
-  password : '87de815a',
-  database : 'heroku_28437b49d76cc53'
+  host     : 'sql12.freemysqlhosting.net',
+  user     : 'sql12288426', 
+  password : 'v2UNXM67av',
+  database : 'sql12288426'  
 });
 
 
