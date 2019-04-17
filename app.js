@@ -18,10 +18,13 @@ app.use(session({
 app.use(express.static("public"));
 
 
+mysql://b32fa719432e40:87de815a@us-cdbr-east-04.cleardb.com/heroku_28437b49d76cc53?reconnect=true
+
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'maj14',  
-  database : 'project'  
+  host     : 'us-cdbr-east-04.cleardb.com',
+  user     : 'b32fa719432e40',
+  password : '87de815a',
+  database : 'heroku_28437b49d76cc53'
 });
 
 
