@@ -19,10 +19,10 @@ app.use(express.static("public"));
 
 
 var connection = mysql.createConnection({
-  host     : 'sql12.freemysqlhosting.net',
-  user     : 'sql12288426', 
-  password : 'v2UNXM67av',
-  database : 'sql12288426'  
+  host     : 'remotemysql.com',
+  user     : 'tePkt0ITC3', 
+  password : 'PkonPZYYBN',
+  database : 'tePkt0ITC3'  
 });
 
 
