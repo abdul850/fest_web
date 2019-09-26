@@ -20,9 +20,9 @@ app.use(express.static("public"));
 
 var connection = mysql.createConnection({
   host     : 'remotemysql.com',
-  user     : 'BnZJWCik56', 
-  password : 'Q7Uw03MJP9',
-  database : 'BnZJWCik56'  
+  user     : 'vIyrhgyQac', 
+  password : '6MXorKZct3',
+  database : 'vIyrhgyQac'  
 });
 
 
